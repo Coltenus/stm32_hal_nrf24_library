@@ -122,7 +122,6 @@ int main(void)
   MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
   util_init();
-  // rf_scanner_init();
   uint8_t scan = 0;
   uint8_t tx_enabled = 1;
 

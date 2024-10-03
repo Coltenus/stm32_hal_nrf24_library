@@ -359,4 +359,15 @@ because as i mentioned nrf24 does not returns in default values even after power
     }
 
 
-    
+## **Scan:**
+
+### **init**
+
+    util_init();
+    print_table_header();
+    nrf24_scan_init();
+
+
+### **step**
+
+    nrf24_scan_step();
