@@ -351,6 +351,4 @@ uint8_t nrf24_data_available(void);
  */
 void nrf24_receive(uint8_t *data, uint8_t size);
 
-
 #endif
-
